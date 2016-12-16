@@ -12,7 +12,7 @@
   .mobile-menu + .top-nav li {
     float: none;
     margin: 0;
-    padding: 15px 10px;
+    padding: 10px;
     border: none; }
     .mobile-menu + .top-nav li:hover {
       background: none; }
@@ -24,6 +24,18 @@
   .mobile-menu.active + .top-nav {
     display: block; } }
 
+@media screen and (max-width: 769px) {
+  .main_screen .offert {
+    max-width: 100%; }
+    .main_screen .offert ul li {
+      font-size: 12px; }
+  .main_screen .title img {
+    padding: 125px 20px 25px; } }
+
 @media screen and (max-width: 470px) {
   .mobile-menu + .top-nav {
     width: 100%; } }
+
+@media screen and (max-width: 360px) {
+  .main_screen .offert ul li {
+    font-size: 10px; } }

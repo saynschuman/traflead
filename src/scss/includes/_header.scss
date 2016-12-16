@@ -7,7 +7,7 @@
   padding: 0 15px; }
 
 .top-header {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -54,7 +54,7 @@
     -webkit-transition: all .3s;
     transition: all .3s;
     overflow: hidden;
-    padding: 10px 30px;
+    padding: 5px 30px 7px;
     color: #fff;
     &:hover {
 		color: #575757;
