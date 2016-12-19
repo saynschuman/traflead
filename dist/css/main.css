@@ -186,6 +186,15 @@ textarea {
   -webkit-appearance: button;
   font: inherit; }
 
+ul, menu, dir {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px; }
+
 .carousel-control.left,
 .carousel-control.right {
   background-image: none;

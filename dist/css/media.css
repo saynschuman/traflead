@@ -31,7 +31,22 @@
       font-size: 12px;
       padding: 13px 0; }
   .main_screen .title img {
-    padding: 125px 20px 25px; } }
+    padding: 125px 20px 25px; }
+  .carousel .price {
+    background-image: none;
+    width: 132px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 51px;
+    margin: 0 auto; }
+    .carousel .price .pr {
+      border: 2px solid #BA95A5; }
+  .carousel .title img {
+    display: none; }
+  .carousel ul li {
+    display: block; }
+    .carousel ul li.pr_t {
+      padding: 0 40px; } }
 
 @media screen and (max-width: 470px) {
   .mobile-menu + .top-nav {

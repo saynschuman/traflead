@@ -50,11 +50,41 @@
     }
     .title img {
       padding: 125px 20px 25px;  
-    }  
+    } 
   }
+
+.carousel {
+  .price {
+    background-image: none;
+    width: 132px;
+    background-repeat: no-repeat;
+    text-align: center;
+    height: 51px;
+    margin: 0 auto;
+    .pr {
+      border: 2px solid #BA95A5;
+    }
+
+  }
+  .title {
+    img {
+    display: none;     
+    }
+  }
+  ul{
+    li {
+    display: block;
+      &.pr_t {
+        padding: 0 40px;
+      }
+    }
+  }
+}  
 
 }
 @media screen and (max-width: 470px) {
+
+
 
   .mobile-menu + .top-nav {
     width: 100%; 
