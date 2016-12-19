@@ -373,7 +373,10 @@ ul, menu, dir {
       transition: .5s; }
 
 .carousel {
-  height: 175px; }
+  height: 175px;
+  max-width: 992px;
+  display: block;
+  margin: 0 auto; }
   .carousel .title {
     text-align: center;
     margin-top: 50px;
