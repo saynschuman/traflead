@@ -9,6 +9,16 @@ $(document).ready(function() {
 	particlesJS.load('particles-js', 'libs/particles.json', function() {
 	  
 	});	
+	particlesJS.load('particles-js-partnership', 'libs/particlesjs-config-last.json', function() {
+	  
+	});	
+
+	particlesJS.load('particles-js-submition', 'libs/particles.json', function() {
+	  
+	});	
+
+	
+	
 
 	$(window).on('load resize', function(){
 		var titleImgWidth = $('.title img').width();

@@ -89,6 +89,32 @@
       top: 50%;
       margin-top: -42px; } }
 
+@media screen and (max-width: 575px) {
+  .submition {
+    background-image: url(../img/bot.png);
+    background-size: cover;
+    height: 800px;
+    background-repeat: no-repeat; }
+    .submition h2 {
+      font-size: 35px;
+      font-weight: 600;
+      color: #fff;
+      text-align: center;
+      padding-top: 87px;
+      padding-bottom: 30px; }
+    .submition .subm_service {
+      display: block;
+      color: #fff; }
+      .submition .subm_service li {
+        list-style: none;
+        text-align: center;
+        font-size: 20px;
+        margin-bottom: 30px; }
+        .submition .subm_service li img {
+          display: block;
+          margin: 0 auto;
+          margin-bottom: 20px; } }
+
 @media screen and (max-width: 470px) {
   .mobile-menu + .top-nav {
     width: 100%; } }
