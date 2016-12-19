@@ -1,6 +1,8 @@
 @media screen and (max-width: 991px) {
   .main_screen {
-    height: 540px; }
+    height: 540px;
+    -webkit-transition: .5s;
+    transition: .5s; }
   .footer {
     background: #31646F;
     width: 100%;
