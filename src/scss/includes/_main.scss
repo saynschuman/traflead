@@ -181,10 +181,11 @@
 // submition
 
 .submition {
-  height: 571px;
-  width: 100%;
-  background-image: url(../img/bot.png);
-  position: relative;
+    height: 569px;
+    width: 100%;
+    background-image: url(../img/bot.png);
+    position: relative;
+    background-repeat: no-repeat;
   .particles_submition {
     position: absolute;
     z-index: 1;
@@ -214,5 +215,29 @@
         margin-bottom: 20px;
       }
     }
+  }
+}
+
+// pre_footer
+
+.pre_footer {
+  background: #31646F;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 600;
+    font-size: 35px;
+  }
+  img {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }

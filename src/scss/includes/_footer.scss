@@ -1,0 +1,38 @@
+.footer {
+  background: #31646F;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  border-top: 1px solid #83A2A8;
+  .info_1 {
+  	padding: 30px 0;
+  	float: left;
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 16px; 
+      &:hover {
+        text-decoration: none;
+      }
+      &.email {
+      	margin-right: 40px;
+      }
+    }
+  } 
+  .info_2 {
+  	  float: right;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 16px;
+      padding: 19px 0;
+      text-align: right;   	
+  	.copyright {
+
+  	}
+  	.date {
+
+  	}
+  }
+}

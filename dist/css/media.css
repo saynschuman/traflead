@@ -1,3 +1,32 @@
+@media screen and (max-width: 991px) {
+  .footer {
+    background: #31646F;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    border-top: 1px solid #83A2A8; }
+    .footer .info_1 {
+      padding: 30px 0 0;
+      float: none;
+      text-align: center; }
+      .footer .info_1 a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 300;
+        font-size: 16px; }
+        .footer .info_1 a:hover {
+          text-decoration: none; }
+        .footer .info_1 a.email {
+          margin-right: 40px; }
+    .footer .info_2 {
+      float: none;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 16px;
+      padding: 19px 0;
+      text-align: center; } }
+
 @media screen and (max-width: 1040px) {
   .mobile-menu {
     display: block; }

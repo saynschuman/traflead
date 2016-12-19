@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
@@ -461,10 +462,11 @@ ul, menu, dir {
     height: 486px; }
 
 .submition {
-  height: 571px;
+  height: 569px;
   width: 100%;
   background-image: url(../img/bot.png);
-  position: relative; }
+  position: relative;
+  background-repeat: no-repeat; }
   .submition .particles_submition {
     position: absolute;
     z-index: 1;
@@ -490,3 +492,49 @@ ul, menu, dir {
         display: block;
         margin: 0 auto;
         margin-bottom: 20px; }
+
+.pre_footer {
+  background: #31646F;
+  width: 100%;
+  height: 300px;
+  position: relative; }
+  .pre_footer h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 70px;
+    font-weight: 600;
+    font-size: 35px; }
+  .pre_footer img {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    margin: auto; }
+
+.footer {
+  background: #31646F;
+  width: 100%;
+  height: auto;
+  color: #fff;
+  border-top: 1px solid #83A2A8; }
+  .footer .info_1 {
+    padding: 30px 0;
+    float: left; }
+    .footer .info_1 a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      font-size: 16px; }
+      .footer .info_1 a:hover {
+        text-decoration: none; }
+      .footer .info_1 a.email {
+        margin-right: 40px; }
+  .footer .info_2 {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 19px 0;
+    text-align: right; }
