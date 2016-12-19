@@ -10,15 +10,11 @@ $(document).ready(function() {
 	  
 	});	
 
-	if (innerHeight < 806) {
-		$('.main_screen').height(innerHeight);
-	}
-
-	$(window).resize(function(){
-		if (innerHeight < 806) {
-			$('.main_screen').height(innerHeight);
-		}
+	$(window).on('load resize', function(){
+		var titleImgWidth = $('.title img').width();
+		$('.main_screen .offert').css('max-width', titleImgWidth);	
 	})
 
+	
 
 });

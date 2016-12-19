@@ -188,3 +188,12 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   font: inherit; }
+
+  // bootstrap reset
+
+  .carousel-control.left,
+  .carousel-control.right {
+   
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+}

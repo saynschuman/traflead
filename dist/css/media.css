@@ -28,7 +28,8 @@
   .main_screen .offert {
     max-width: 100%; }
     .main_screen .offert ul li {
-      font-size: 12px; }
+      font-size: 12px;
+      padding: 13px 0; }
   .main_screen .title img {
     padding: 125px 20px 25px; } }
 

@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Project</title>
-  <link href="libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
 
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/media.css">
@@ -16,39 +16,80 @@
       <![endif]-->
     </head>
     <body>
-      
-          <div class="main_screen">
-            <header class="top-header">
-              <div class="page-wrapper clearfix">
-                <a href="#" class="logo-top">
-                  <img src="img/logo.png" alt="EliteTime24">
-                </a>
-                <div class="right-align">
-                  <button type="button" class="mobile-menu"><span></span> Меню</button>
-                  <nav class="top-nav">
-                    <ul>
-                      <li><a href="#">Регистрация</a></li>
-                      <li><a href="#">Вход</a></li>
-                    </ul>
-                  </nav>
-                </div>
-              </div>
-            </header>
-            <div class="title">
-              <img class="img-responsive" src="img/title.png" alt="">
+
+      <div class="main_screen">
+        <header class="top-header">
+          <div class="page-wrapper clearfix">
+            <a href="#" class="logo-top">
+              <img src="img/logo.png" alt="EliteTime24">
+            </a>
+            <div class="right-align">
+              <button type="button" class="mobile-menu"><span></span> Меню</button>
+              <nav class="top-nav">
+                <ul>
+                  <li><a href="#">Регистрация</a></li>
+                  <li><a href="#">Вход</a></li>
+                </ul>
+              </nav>
             </div>
-            <div class="offert">
-              <ul>
-                <li class="col-md-4 col-sm-4 col-xs-4">Лучшие офферы</li>
-                <li class="col-md-4 col-sm-4 col-xs-4">Высокие ставки</li>
-                <li class="col-md-4 col-sm-4 col-xs-4">Еженедельные выплаты</li>
-              </ul>
-            </div>
-            <div class="particles_header" id="particles-js"></div>
           </div>
+        </header>
+        <div class="title">
+          <img class="img-responsive" src="img/tit.png" alt="">
+        </div>
+        <div class="offert">
+          <ul>
+            <li class="col-md-4 col-sm-4 col-xs-12">Лучшие офферы</li>
+            <li class="col-md-4 col-sm-4 col-xs-12">Высокие ставки</li>
+            <li class="col-md-4 col-sm-4 col-xs-12">Еженедельные выплаты</li>
+          </ul>
+        </div>
+        <div class="particles_header" id="particles-js"></div>
+        <div class="scroll">
+          <div>scroll</div>
+          <img src="img/scroll.png" alt="">
+        </div>
+      </div>
 
 
-    
+<!-- carousel -->
+<div class="carousel">
+      <div class="title">
+        <h2><img src="img/star.png" alt="">Toп офферов за последний месяц</h2>
+      </div>  
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <ul>
+          <li class="pr_t">Расспродажа парфюма </li>
+          <li class="price"><span class="pr">&#8381; 500</span></li>
+        </ul>
+      </div>
+      <div class="carousel-item">
+        <ul>
+          <li class="pr_t">Расспродажа парфюма </li>
+          <li class="price"><span class="pr">&#8381; 500</span></li>
+        </ul>
+      </div>
+      <div class="carousel-item">
+        <ul>
+          <li class="pr_t">Расспродажа парфюма </li>
+          <li class="price"><span class="pr">&#8381; 500</span></li>
+        </ul>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span aria-hidden="true"><img src="img/left.png" alt=""></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span aria-hidden="true"><img src="img/right.png" alt=""></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+
 
     <footer class="footer">
 
@@ -58,11 +99,13 @@
 
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" defer ></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" defer ></script>
 
-    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
 
     <script src="js/main.js" defer></script>
 
