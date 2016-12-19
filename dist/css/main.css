@@ -532,9 +532,14 @@ ul, menu, dir {
       color: #fff;
       text-decoration: none;
       font-weight: 300;
-      font-size: 16px; }
+      font-size: 16px;
+      -webkit-transition: .5s;
+      transition: .5s; }
       .footer .info_1 a:hover {
-        text-decoration: none; }
+        text-decoration: none;
+        -webkit-transition: .5s;
+        transition: .5s;
+        opacity: .7; }
       .footer .info_1 a.email {
         margin-right: 40px; }
   .footer .info_2 {

@@ -12,8 +12,11 @@
       text-decoration: none;
       font-weight: 300;
       font-size: 16px; 
+      transition: .5s;
       &:hover {
         text-decoration: none;
+        transition: .5s;
+        opacity: .7;
       }
       &.email {
       	margin-right: 40px;
