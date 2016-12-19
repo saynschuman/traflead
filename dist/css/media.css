@@ -145,6 +145,13 @@
           margin-bottom: 20px; } }
 
 @media screen and (max-width: 470px) {
+  .pre_footer h2 {
+    padding: 30px 10px 0 10px; }
+  .pre_footer img {
+    width: 257px; }
+  .footer .info_1 .email {
+    width: 100%;
+    display: block; }
   .mobile-menu + .top-nav {
     width: 100%; } }
 
