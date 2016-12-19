@@ -18,19 +18,9 @@ $(document).ready(function() {
 	});	
 
 	
-	
-
 	$(window).on('load resize', function(){
 		var titleImgWidth = $('.title img').width();
 		$('.main_screen .offert').css('max-width', titleImgWidth);	
 	})
-	
-	
-    
-        
-     
-
-
-
 
 });
