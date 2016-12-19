@@ -1,4 +1,6 @@
 @media screen and (max-width: 991px) {
+  .main_screen {
+    height: 540px; }
   .footer {
     background: #31646F;
     width: 100%;
