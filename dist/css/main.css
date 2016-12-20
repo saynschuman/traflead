@@ -367,7 +367,7 @@ ul, menu, dir {
     cursor: pointer; }
     .main_screen .scroll img {
       margin: 10px 0 0 0; }
-    .main_screen .scroll::hover {
+    .main_screen .scroll:hover {
       opacity: .7;
       -webkit-transition: .5s;
       transition: .5s; }
