@@ -768,7 +768,8 @@ ul, menu, dir {
   background-image: url(../img/map_2_test.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center; }
+  background-position: top center;
+  position: relative; }
   .with_us .title {
     text-align: center;
     margin-top: 50px;
@@ -783,6 +784,16 @@ ul, menu, dir {
       font-weight: 600;
       color: #686868;
       text-align: center; }
+  .with_us .countries_wrapper {
+    height: 480px;
+    width: 200px;
+    background: -webkit-linear-gradient(bottom, rgba(0, 50, 69, 0.3), rgba(254, 126, 159, 0.3));
+    background: linear-gradient(to top, rgba(0, 50, 69, 0.3), rgba(254, 126, 159, 0.3));
+    position: absolute;
+    bottom: 0;
+    left: -417px;
+    right: 0;
+    margin: 0 auto; }
 
 .footer {
   background: #31646F;
