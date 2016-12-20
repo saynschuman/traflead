@@ -991,3 +991,6 @@ ul, menu, dir {
     width: 100%;
     max-width: 300px;
     cursor: pointer; }
+
+.hidden {
+  display: none; }
