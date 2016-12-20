@@ -82,6 +82,13 @@
     display: block; } }
 
 @media screen and (max-width: 769px) {
+  .with_us .flags .flag {
+    display: none; }
+  .with_us .countries_wrapper {
+    height: 444px;
+    padding: 0;
+    width: 100%;
+    left: 0; }
   .with_us .title img {
     display: none; }
   .main_screen .offert {
@@ -173,6 +180,10 @@
           display: block;
           margin: 0 auto;
           margin-bottom: 20px; } }
+
+@media screen and (max-width: 554px) {
+  .with_us .title {
+    margin-top: 7px; } }
 
 @media screen and (max-width: 470px) {
   .pre_footer h2 {

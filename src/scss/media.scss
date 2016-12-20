@@ -114,6 +114,17 @@
 
 
         @media screen and (max-width: 769px) {
+          .with_us .flags .flag {
+            display: none;
+          }
+
+          .with_us .countries_wrapper {
+            height: 444px;
+            padding: 0;
+            width: 100%;
+            left: 0;
+          }
+
           .with_us {
               .title {
               img {
@@ -247,6 +258,14 @@
     }
   }
 }
+}
+
+@media screen and (max-width: 554px) {
+  .with_us {
+      .title {
+        margin-top: 7px;         
+    }      
+  }    
 }
 
         @media screen and (max-width: 470px) {
