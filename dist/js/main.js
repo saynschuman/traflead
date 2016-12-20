@@ -23,4 +23,6 @@ $(document).ready(function() {
 		$('.main_screen .offert').css('max-width', titleImgWidth);	
 	})
 
+	new WOW().init();
+
 });
