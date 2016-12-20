@@ -114,6 +114,13 @@
 
 
         @media screen and (max-width: 769px) {
+          .with_us {
+              .title {
+              img {
+                display: none;     
+            }          
+            }      
+          }            
           .main_screen{
             .offert {
               max-width: 100%;
@@ -243,6 +250,8 @@
 }
 
         @media screen and (max-width: 470px) {
+
+
           .pre_footer {
             h2 {
               padding: 30px 10px 0 10px;

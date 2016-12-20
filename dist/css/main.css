@@ -760,6 +760,30 @@ ul, menu, dir {
     right: 0;
     margin: auto; }
 
+.with_us {
+  height: 520px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-image: url(../img/map_2_test.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center; }
+  .with_us .title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-transform: uppercase; }
+    .with_us .title img {
+      position: absolute;
+      margin-left: -47px;
+      margin-top: 2px; }
+    .with_us .title h2 {
+      font-weight: 600;
+      color: #686868;
+      text-align: center; }
+
 .footer {
   background: #31646F;
   width: 100%;

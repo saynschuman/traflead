@@ -82,6 +82,8 @@
     display: block; } }
 
 @media screen and (max-width: 769px) {
+  .with_us .title img {
+    display: none; }
   .main_screen .offert {
     max-width: 100%; }
     .main_screen .offert ul li {

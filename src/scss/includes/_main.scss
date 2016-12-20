@@ -514,3 +514,32 @@
     margin: auto;
   }
 }
+
+// with uzbekistan
+.with_us {
+    height: 520px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    background-image: url(../img/map_2_test.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    .title {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      font-size: 35px;
+      text-transform: uppercase;
+        img {
+          position: absolute;
+          margin-left: -47px;
+          margin-top: 2px;      
+        }
+        h2 {
+          font-weight: 600;
+          color: $mainColor;
+          text-align: center;
+        }
+    }
+}    
