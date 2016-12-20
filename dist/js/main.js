@@ -208,4 +208,16 @@ smoothScroll.init({
     callback: function ( anchor, toggle ) {} // Function to run after scrolling
 });
 
+$('.open-popup').magnificPopup({
+	type:'inline',
+	removalDelay: 500,
+	midClick: true,
+	mainClass: 'mfp-with-zoom',
+	zoom: {
+		enabled: true,
+		duration: 300,
+		easing: 'ease-in-out',
+	}
+});
+
 });

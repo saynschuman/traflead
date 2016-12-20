@@ -901,3 +901,93 @@ ul, menu, dir {
     font-size: 16px;
     padding: 19px 0;
     text-align: right; }
+
+.mfp-with-zoom {
+  width: 100%;
+  max-width: 636px;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-bottom: 50px;
+  z-index: 9; }
+  .mfp-with-zoom .mfp-preloader {
+    display: none; }
+  .mfp-with-zoom h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #686868;
+    font-size: 22px;
+    font-weight: 600; }
+  .mfp-with-zoom .mfp-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-image: url(../img/close.png);
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    height: 27px;
+    width: 26px;
+    -webkit-transition: .3s;
+    transition: .3s;
+    cursor: pointer; }
+    .mfp-with-zoom .mfp-close:hover {
+      opacity: .7;
+      -webkit-transition: .3s;
+      transition: .3s; }
+  .mfp-with-zoom input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    border-radius: 30px;
+    border: 1px solid #b8b8b8;
+    padding: 8px 25px;
+    font-size: 15px;
+    color: #747474;
+    width: 100%;
+    max-width: 300px; }
+    .mfp-with-zoom input:focus {
+      outline: none;
+      border: 1px solid #364953; }
+    .mfp-with-zoom input[type="submit"] {
+      background-color: #455e6a;
+      font-size: 17px;
+      color: #fff;
+      cursor: pointer; }
+  .mfp-with-zoom .mid {
+    background-color: #e5eaed;
+    padding: 2.5px; }
+  .mfp-with-zoom #enter-popup input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 30px;
+    border: 1px solid #b8b8b8;
+    padding: 8px 25px;
+    font-size: 15px;
+    color: #747474;
+    width: 100%;
+    max-width: 300px; }
+    .mfp-with-zoom #enter-popup input:focus {
+      outline: none;
+      border: 1px solid #364953; }
+    .mfp-with-zoom #enter-popup input[type="submit"] {
+      background-color: #455e6a;
+      font-size: 17px;
+      color: #fff;
+      cursor: pointer; }
+  .mfp-with-zoom #enter-popup .forgot {
+    font-size: 12px;
+    color: #455e6a;
+    text-align: right;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer; }
