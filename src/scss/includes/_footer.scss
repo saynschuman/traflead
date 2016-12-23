@@ -91,6 +91,9 @@
     color: #747474; 
     width: 100%;
     max-width: 300px;
+    &.error {
+      border: 1px solid red;
+    }
     &:focus {
       outline: none;
       border: 1px solid #364953;
@@ -146,3 +149,14 @@
 .hidden {
   display: none;
 }
+
+.error {
+    display: block;
+    margin: 0 auto;
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    max-width: 300px;  
+    padding-left: 10px;
+}
+

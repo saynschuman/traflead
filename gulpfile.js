@@ -67,7 +67,7 @@ gulp.task("js:build", function() {
 
 gulp.task("img:build", function() {
   return gulp.src( path.src.img )
-    // .pipe( imagemin() )    // not use when develop
+    .pipe( imagemin() )   
     .pipe( gulp.dest( path.dist.img ) )
     .pipe(connect.reload());
 });

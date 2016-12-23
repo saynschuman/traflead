@@ -1,6 +1,7 @@
 // reset
 
-button:focus { outline: none; }
+button:focus,
+a:focus { outline: none; }
 
 html {
   -ms-text-size-adjust: 100%;

@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:600");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
-button:focus {
+button:focus,
+a:focus {
   outline: none; }
 
 html {
@@ -239,7 +240,7 @@ ul, menu, dir {
 
 .top-nav li {
   float: left;
-  margin: 25px 21px;
+  margin: 25px 15px;
   background: transparent;
   border-radius: 45px;
   border: 2px solid #e6d0d5;
@@ -260,7 +261,7 @@ ul, menu, dir {
   -webkit-transition: all .3s;
   transition: all .3s;
   overflow: hidden;
-  padding: 5px 30px 7px;
+  padding: 4px 42px 7px;
   color: #fff; }
   .top-nav a:hover {
     color: #575757; }
@@ -664,6 +665,9 @@ ul, menu, dir {
       display: block;
       width: 125px;
       font-size: 30px; }
+  .carousel .carousel-control {
+    width: auto;
+    height: 62px; }
 
 .partnership {
   background-image: url(../img/bckg_middle.png);
@@ -951,6 +955,8 @@ ul, menu, dir {
     color: #747474;
     width: 100%;
     max-width: 300px; }
+    .mfp-with-zoom input.error {
+      border: 1px solid red; }
     .mfp-with-zoom input:focus {
       outline: none;
       border: 1px solid #364953; }
@@ -994,3 +1000,12 @@ ul, menu, dir {
 
 .hidden {
   display: none; }
+
+.error {
+  display: block;
+  margin: 0 auto;
+  color: red;
+  font-size: 12px;
+  width: 100%;
+  max-width: 300px;
+  padding-left: 10px; }
