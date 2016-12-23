@@ -2,9 +2,17 @@ $(document).ready(function() {
 
 	//main screen
 
-	if($(window).height() > 806) {
-		$('.main_screen').height($(window).height());
-	}
+	$(window).on('load resize', function(){
+		if($(window).height() > 806) {
+			$('.main_screen').height($(window).height());
+			$('.main_screen').css({
+				'background-repeat': 'no-repeat',
+				'background-size': 'cover',
+			});
+		}
+	})
+
+
 
 
 	//	mobile button menu
