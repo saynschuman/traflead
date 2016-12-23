@@ -3,7 +3,7 @@ $(document).ready(function() {
 	//main screen
 
 	if($(window).height() > 806) {
-		$('.main_screen').width($(window).height());
+		$('.main_screen').height($(window).height());
 	}
 
 
